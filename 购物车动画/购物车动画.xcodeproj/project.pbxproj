@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADE2AE51DB8659800B0F0AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE2AE41DB8659800B0F0AA /* main.m */; };
+		FADE2AE81DB8659800B0F0AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE2AE71DB8659800B0F0AA /* AppDelegate.m */; };
+		FADE2AEB1DB8659800B0F0AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE2AEA1DB8659800B0F0AA /* ViewController.m */; };
+		FADE2AEE1DB8659800B0F0AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADE2AEC1DB8659800B0F0AA /* Main.storyboard */; };
+		FADE2AF01DB8659800B0F0AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADE2AEF1DB8659800B0F0AA /* Assets.xcassets */; };
+		FADE2AF31DB8659800B0F0AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADE2AF11DB8659800B0F0AA /* LaunchScreen.storyboard */; };
+		FADE2AFE1DB8659800B0F0AA /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE2AFD1DB8659800B0F0AA /* _____Tests.m */; };
+		FADE2B091DB8659800B0F0AA /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE2B081DB8659800B0F0AA /* _____UITests.m */; };
+		FADE2B171DB8662200B0F0AA /* 1430113902_tmGaoZLs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FADE2B161DB8662200B0F0AA /* 1430113902_tmGaoZLs.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADE2AFA1DB8659800B0F0AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADE2AD81DB8659800B0F0AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADE2ADF1DB8659800B0F0AA;
+			remoteInfo = "购物车动画";
+		};
+		FADE2B051DB8659800B0F0AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADE2AD81DB8659800B0F0AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADE2ADF1DB8659800B0F0AA;
+			remoteInfo = "购物车动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA0ACF371DB8687C00AA74BE /* 购物车动画-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "购物车动画-Bridging-Header.h"; sourceTree = "<group>"; };
+		FADE2AE01DB8659800B0F0AA /* 购物车动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "购物车动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADE2AE41DB8659800B0F0AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FADE2AE61DB8659800B0F0AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FADE2AE71DB8659800B0F0AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FADE2AE91DB8659800B0F0AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FADE2AEA1DB8659800B0F0AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FADE2AED1DB8659800B0F0AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADE2AEF1DB8659800B0F0AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADE2AF21DB8659800B0F0AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADE2AF41DB8659800B0F0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADE2AF91DB8659800B0F0AA /* 购物车动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "购物车动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADE2AFD1DB8659800B0F0AA /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		FADE2AFF1DB8659800B0F0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADE2B041DB8659800B0F0AA /* 购物车动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "购物车动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADE2B081DB8659800B0F0AA /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		FADE2B0A1DB8659800B0F0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADE2B161DB8662200B0F0AA /* 1430113902_tmGaoZLs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1430113902_tmGaoZLs.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADE2ADD1DB8659800B0F0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE2AF61DB8659800B0F0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE2B011DB8659800B0F0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADE2AD71DB8659800B0F0AA = {
+			isa = PBXGroup;
+			children = (
+				FADE2AE21DB8659800B0F0AA /* 购物车动画 */,
+				FADE2AFC1DB8659800B0F0AA /* 购物车动画Tests */,
+				FADE2B071DB8659800B0F0AA /* 购物车动画UITests */,
+				FADE2AE11DB8659800B0F0AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADE2AE11DB8659800B0F0AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADE2AE01DB8659800B0F0AA /* 购物车动画.app */,
+				FADE2AF91DB8659800B0F0AA /* 购物车动画Tests.xctest */,
+				FADE2B041DB8659800B0F0AA /* 购物车动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADE2AE21DB8659800B0F0AA /* 购物车动画 */ = {
+			isa = PBXGroup;
+			children = (
+				FADE2AE61DB8659800B0F0AA /* AppDelegate.h */,
+				FADE2AE71DB8659800B0F0AA /* AppDelegate.m */,
+				FADE2AE91DB8659800B0F0AA /* ViewController.h */,
+				FADE2AEA1DB8659800B0F0AA /* ViewController.m */,
+				FADE2B161DB8662200B0F0AA /* 1430113902_tmGaoZLs.jpg */,
+				FADE2AEC1DB8659800B0F0AA /* Main.storyboard */,
+				FADE2AEF1DB8659800B0F0AA /* Assets.xcassets */,
+				FADE2AF11DB8659800B0F0AA /* LaunchScreen.storyboard */,
+				FADE2AF41DB8659800B0F0AA /* Info.plist */,
+				FADE2AE31DB8659800B0F0AA /* Supporting Files */,
+				FA0ACF371DB8687C00AA74BE /* 购物车动画-Bridging-Header.h */,
+			);
+			path = "购物车动画";
+			sourceTree = "<group>";
+		};
+		FADE2AE31DB8659800B0F0AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FADE2AE41DB8659800B0F0AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FADE2AFC1DB8659800B0F0AA /* 购物车动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FADE2AFD1DB8659800B0F0AA /* _____Tests.m */,
+				FADE2AFF1DB8659800B0F0AA /* Info.plist */,
+			);
+			path = "购物车动画Tests";
+			sourceTree = "<group>";
+		};
+		FADE2B071DB8659800B0F0AA /* 购物车动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADE2B081DB8659800B0F0AA /* _____UITests.m */,
+				FADE2B0A1DB8659800B0F0AA /* Info.plist */,
+			);
+			path = "购物车动画UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADE2ADF1DB8659800B0F0AA /* 购物车动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADE2B0D1DB8659800B0F0AA /* Build configuration list for PBXNativeTarget "购物车动画" */;
+			buildPhases = (
+				FADE2ADC1DB8659800B0F0AA /* Sources */,
+				FADE2ADD1DB8659800B0F0AA /* Frameworks */,
+				FADE2ADE1DB8659800B0F0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "购物车动画";
+			productName = "购物车动画";
+			productReference = FADE2AE01DB8659800B0F0AA /* 购物车动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADE2AF81DB8659800B0F0AA /* 购物车动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADE2B101DB8659800B0F0AA /* Build configuration list for PBXNativeTarget "购物车动画Tests" */;
+			buildPhases = (
+				FADE2AF51DB8659800B0F0AA /* Sources */,
+				FADE2AF61DB8659800B0F0AA /* Frameworks */,
+				FADE2AF71DB8659800B0F0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADE2AFB1DB8659800B0F0AA /* PBXTargetDependency */,
+			);
+			name = "购物车动画Tests";
+			productName = "购物车动画Tests";
+			productReference = FADE2AF91DB8659800B0F0AA /* 购物车动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FADE2B031DB8659800B0F0AA /* 购物车动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADE2B131DB8659800B0F0AA /* Build configuration list for PBXNativeTarget "购物车动画UITests" */;
+			buildPhases = (
+				FADE2B001DB8659800B0F0AA /* Sources */,
+				FADE2B011DB8659800B0F0AA /* Frameworks */,
+				FADE2B021DB8659800B0F0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADE2B061DB8659800B0F0AA /* PBXTargetDependency */,
+			);
+			name = "购物车动画UITests";
+			productName = "购物车动画UITests";
+			productReference = FADE2B041DB8659800B0F0AA /* 购物车动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADE2AD81DB8659800B0F0AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MacBook;
+				TargetAttributes = {
+					FADE2ADF1DB8659800B0F0AA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FADE2AF81DB8659800B0F0AA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FADE2ADF1DB8659800B0F0AA;
+					};
+					FADE2B031DB8659800B0F0AA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FADE2ADF1DB8659800B0F0AA;
+					};
+				};
+			};
+			buildConfigurationList = FADE2ADB1DB8659800B0F0AA /* Build configuration list for PBXProject "购物车动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADE2AD71DB8659800B0F0AA;
+			productRefGroup = FADE2AE11DB8659800B0F0AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADE2ADF1DB8659800B0F0AA /* 购物车动画 */,
+				FADE2AF81DB8659800B0F0AA /* 购物车动画Tests */,
+				FADE2B031DB8659800B0F0AA /* 购物车动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADE2ADE1DB8659800B0F0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE2AF31DB8659800B0F0AA /* LaunchScreen.storyboard in Resources */,
+				FADE2AF01DB8659800B0F0AA /* Assets.xcassets in Resources */,
+				FADE2B171DB8662200B0F0AA /* 1430113902_tmGaoZLs.jpg in Resources */,
+				FADE2AEE1DB8659800B0F0AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE2AF71DB8659800B0F0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE2B021DB8659800B0F0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADE2ADC1DB8659800B0F0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE2AEB1DB8659800B0F0AA /* ViewController.m in Sources */,
+				FADE2AE81DB8659800B0F0AA /* AppDelegate.m in Sources */,
+				FADE2AE51DB8659800B0F0AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE2AF51DB8659800B0F0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE2AFE1DB8659800B0F0AA /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE2B001DB8659800B0F0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE2B091DB8659800B0F0AA /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADE2AFB1DB8659800B0F0AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADE2ADF1DB8659800B0F0AA /* 购物车动画 */;
+			targetProxy = FADE2AFA1DB8659800B0F0AA /* PBXContainerItemProxy */;
+		};
+		FADE2B061DB8659800B0F0AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADE2ADF1DB8659800B0F0AA /* 购物车动画 */;
+			targetProxy = FADE2B051DB8659800B0F0AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADE2AEC1DB8659800B0F0AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADE2AED1DB8659800B0F0AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADE2AF11DB8659800B0F0AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADE2AF21DB8659800B0F0AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADE2B0B1DB8659800B0F0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADE2B0C1DB8659800B0F0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADE2B0E1DB8659800B0F0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "购物车动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BaiduNavigationForMe.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "购物车动画/购物车动画-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADE2B0F1DB8659800B0F0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "购物车动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BaiduNavigationForMe.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "购物车动画/购物车动画-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		FADE2B111DB8659800B0F0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "购物车动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BaiduNavigationForMe.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/购物车动画.app/购物车动画";
+			};
+			name = Debug;
+		};
+		FADE2B121DB8659800B0F0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "购物车动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BaiduNavigationForMe.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/购物车动画.app/购物车动画";
+			};
+			name = Release;
+		};
+		FADE2B141DB8659800B0F0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "购物车动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BaiduNavigationForMe.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "购物车动画";
+			};
+			name = Debug;
+		};
+		FADE2B151DB8659800B0F0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "购物车动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BaiduNavigationForMe.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "购物车动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADE2ADB1DB8659800B0F0AA /* Build configuration list for PBXProject "购物车动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE2B0B1DB8659800B0F0AA /* Debug */,
+				FADE2B0C1DB8659800B0F0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADE2B0D1DB8659800B0F0AA /* Build configuration list for PBXNativeTarget "购物车动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE2B0E1DB8659800B0F0AA /* Debug */,
+				FADE2B0F1DB8659800B0F0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADE2B101DB8659800B0F0AA /* Build configuration list for PBXNativeTarget "购物车动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE2B111DB8659800B0F0AA /* Debug */,
+				FADE2B121DB8659800B0F0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADE2B131DB8659800B0F0AA /* Build configuration list for PBXNativeTarget "购物车动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE2B141DB8659800B0F0AA /* Debug */,
+				FADE2B151DB8659800B0F0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADE2AD81DB8659800B0F0AA /* Project object */;
+}
